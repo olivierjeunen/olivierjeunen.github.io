@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+I'm a PhD student at the University of Antwerp in Belgium.
+My research interests revolve around data mining and machine learning, specifically with applications in information retrieval and recommender systems.
+Within these fields, I enjoy working on a broad range of topics from core algorithms to evaluation.
+I particularly enjoy working at the intersection of theory and application.
 
-You can use the [editor on GitHub](https://github.com/olivierjeunen/olivierjeunen.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+When obtaining my Master degree, I was lucky to have research collaborations and internships with Technicolor and University of Antwerp spin-off Predicube.
+Summer of 2019, during my PhD studies, I interned with Criteo's _causal recommendations_ team in Paris.
+This experience has spiked my interest in applications of causal and counterfactual inference in recommendation settings.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Publications ([Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen))
 
-### Markdown
+- Three Methods for Training on Bandit Feedback.  
+D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML ’19** (_NeurIPS Workshop_)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Learning from Bandit Feedback: An Overview of the State-of-the-art.  
+**O. Jeunen**, D. Mykhaylov, D. Rohde, F. Vasile, A. Gilotte and M. Bompaire. **REVEAL ’19** (_RecSys Workshop_)
 
-```markdown
-Syntax highlighted code block
+- On the Value of Bandit Feedback for Offline Recommender System Evaluation.  
+**O. Jeunen**, D. Rohde and F. Vasile. **REVEAL ’19** (_RecSys Workshop_)
 
-# Header 1
-## Header 2
-### Header 3
+- Efficient Similarity Computation for Collaborative Filtering in Dynamic Environments.  
+**O. Jeunen**, K. Verstrepen, B. Goethals. **RecSys ’19**
 
-- Bulleted
-- List
+- Revisiting Offline Evaluation for Implicit-Feedback Recommender Systems.  
+**O. Jeunen**. **RecSys ’19** (_Doctoral Symposium_)
 
-1. Numbered
-2. List
+- Interactive Evaluation of Recommender Systems with SNIPER - An Episode Mining Approach.  
+S. Moens, **O. Jeunen**, B. Goethals. **RecSys ’19** (_Demo_)
 
-**Bold** and _Italic_ and `Code` text
+- Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
+**O. Jeunen**, B. Goethals. **WSDM Cup ’19** (_WSDM Workshop_)
 
-[Link](url) and ![Image](src)
-```
+- A Machine Learning Approach for IEEE 802.11 Channel Allocation.  
+**O. Jeunen**, P. Bosch, M. Van Herwegen, K. Van Doorselaer, N. Godman, S. Latré. **CNSM ’18**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/olivierjeunen/olivierjeunen.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Fair Offline Evaluation Methodologies for Implicit-Feedback Recommender Systems with MNAR Data.  
+**O. Jeunen**, K. Verstrepen, B. Goethals. **REVEAL ’18** (_RecSys Workshop_)
