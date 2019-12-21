@@ -20,11 +20,11 @@ D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML ’
 
 - On the Value of Bandit Feedback for Offline Recommender System Evaluation.  
 **O. Jeunen**, D. Rohde and F. Vasile. **REVEAL ’19** (_RecSys Workshop_)  
-\[[pdf](https://arxiv.org/pdf/1907.12384.pdf)\, [notebook](https://github.com/criteo-research/reco-gym/blob/master/Offline%20Evaluation%20with%20Bandit%20Feedback.ipynb)]
+\[[pdf](https://arxiv.org/pdf/1907.12384.pdf), [notebook](https://github.com/criteo-research/reco-gym/blob/master/Offline%20Evaluation%20with%20Bandit%20Feedback.ipynb)]
 
 - Efficient Similarity Computation for Collaborative Filtering in Dynamic Environments.  
 **O. Jeunen**, K. Verstrepen, B. Goethals. **RecSys ’19**  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/JeunenRecSys19_Full.pdf)\, [code](https://github.com/olivierjeunen/dynamicindex)]
+\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/JeunenRecSys19_Full.pdf), [code](https://github.com/olivierjeunen/dynamicindex)]
 
 - Revisiting Offline Evaluation for Implicit-Feedback Recommender Systems.  
 **O. Jeunen**. **RecSys ’19** (_Doctoral Symposium_)  
@@ -36,7 +36,7 @@ S. Moens, **O. Jeunen**, B. Goethals. **RecSys ’19** (_Demo_)
 
 - Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
 **O. Jeunen**, B. Goethals. **WSDM Cup ’19** (_WSDM Workshop_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/WSDMCupJeunen2019.pdf)\, [code](https://github.com/olivierjeunen/sequential-skip-prediction)]
+\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/WSDMCupJeunen2019.pdf), [code](https://github.com/olivierjeunen/sequential-skip-prediction)]
 
 - A Machine Learning Approach for IEEE 802.11 Channel Allocation.  
 **O. Jeunen**, P. Bosch, M. Van Herwegen, K. Van Doorselaer, N. Godman, S. Latré. **CNSM ’18**  
