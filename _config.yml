@@ -1,4 +1,6 @@
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "contrast"
 title: Olivier Jeunen
+name: Olivier Jeunen
 description: PhD student @ University of Antwerp, Belgium
 logo: /img/RecSysPhoto.jpg
