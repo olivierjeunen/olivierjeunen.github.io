@@ -1,4 +1,3 @@
-## About me
 I'm a PhD student at the University of Antwerp in Belgium.  
 My research interests revolve around data mining and machine learning, specifically with applications in information retrieval and recommender systems.
 Within these fields, I enjoy working on a broad range of topics from core algorithms to evaluation.

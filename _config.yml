@@ -1,8 +1,8 @@
-#theme: jekyll-theme-minimal
 remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 title: Olivier Jeunen
 name: Olivier Jeunen
 description: PhD student @ University of Antwerp, Belgium
+logo: img/RecSysPhoto.jpg
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
