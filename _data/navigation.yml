@@ -1,5 +1,5 @@
 main:
-  - title: "Home"
+  - title: "About"
     url: /
   - title: "Publications"
     url: /_pages/publications
