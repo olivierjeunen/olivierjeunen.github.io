@@ -42,6 +42,8 @@ author:
       icon: "fab fa-fw fa-linkedin"
       # url:
 
+author_profile: true
+
 # Site Footer
 footer:
   links:
@@ -62,6 +64,7 @@ defaults:
       type: pages
     values:
       layout: single
+      author-profile: true
 
 
 encoding: "utf-8"
