@@ -1,4 +1,4 @@
-I'm a PhD student at the University of Antwerp in Belgium, working in the [Adrem Data Lab](http://adrem.uantwerpen.be/) under supervision of Prof. Dr. Bart Goethals.  
+I'm a PhD student at the University of Antwerp in Belgium, working in the [Adrem Data Lab](http://adrem.uantwerpen.be/) under supervision of [Prof. Dr. Bart Goethals](https://www.uantwerpen.be/en/staff/bart-goethals/).  
 My research interests revolve around data mining and machine learning, specifically with applications in information retrieval and recommender systems.
 Within these fields, I enjoy working on a broad range of topics from core algorithms to evaluation.
 I particularly enjoy working at the intersection of theory and application.
@@ -10,3 +10,4 @@ This experience has spiked my interest in applications of causal and counterfact
 I'm very open to collaborations, so if this interests you as well, feel free to send me an e-mail!
 
 You can find a list of publications with links to code [here](/_pages/publications).
+My full resume can be downloaded [here](/img/Resume_20012020_small.pdf) (_last updated 20/01/2020_).

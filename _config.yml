@@ -23,7 +23,6 @@ author:
   avatar           : "img/profile.jpg"
   bio              : "PhD student @ University of Antwerp"
   location         : "Antwerp, Belgium"
-  email            : "olivier.jeunen@uantwerp.be"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
