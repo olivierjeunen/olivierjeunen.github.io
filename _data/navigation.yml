@@ -2,4 +2,4 @@ main:
   - title: "Home"
     url: /
   - title: "Publications"
-    url: /_pages/publications/md
+    url: /_pages/publications
