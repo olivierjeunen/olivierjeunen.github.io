@@ -1,6 +1,7 @@
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 title: Olivier Jeunen
+subtitle: PhD student
 name: Olivier Jeunen
 description: PhD student @ University of Antwerp, Belgium
 
@@ -21,7 +22,7 @@ include:
 author:
   name             : "Your Name"
   avatar           : "img/RecSysPhoto.jpg"
-  bio              : "PhD Student @ University of Antwerp"
+  bio              : "PhD student @ University of Antwerp"
   location         : "Antwerp, Belgium"
   email            :
   links:
