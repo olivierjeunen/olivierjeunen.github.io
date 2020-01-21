@@ -3,3 +3,5 @@ main:
     url: /
   - title: "Publications"
     url: /_pages/publications
+  - title: "Blog"
+    url: /_pages/blog
