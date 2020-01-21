@@ -1,7 +1,5 @@
-# List of Publications
-[Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ)
-[ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen))
-
+List of Publications
+[Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen)
 
 - Three Methods for Training on Bandit Feedback.  
 D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML ’19** (_NeurIPS Workshop_)  

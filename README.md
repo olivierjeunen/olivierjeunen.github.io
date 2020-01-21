@@ -1,12 +1,12 @@
-I'm a PhD student at the University of Antwerp in Belgium.  
+I'm a PhD student at the University of Antwerp in Belgium, working in the [Adrem Data Lab](http://adrem.uantwerpen.be/) under supervision of Prof. Dr. Bart Goethals.  
 My research interests revolve around data mining and machine learning, specifically with applications in information retrieval and recommender systems.
 Within these fields, I enjoy working on a broad range of topics from core algorithms to evaluation.
 I particularly enjoy working at the intersection of theory and application.
 
-When obtaining my Master degree, I was lucky to have research collaborations and internships with Technicolor and University of Antwerp spin-off Predicube.  
-Summer of 2019, during my PhD studies, I interned with Criteo's _causal recommendations_ team in Paris.
+Throughout my MSc studies, I was lucky to have research collaborations and internships with [Technicolor](https://www.technicolor.com/) and University of Antwerp spin-offs [Predicube](https://www.predicube.com/) and [Froomle](https://www.froomle.ai/).  
+Summer of 2019, during my PhD studies, I interned with [Criteo](https://ailab.criteo.com/)'s _causal recommendations_ team in Paris.
 This experience has spiked my interest in applications of causal and counterfactual inference in recommendation settings.
 
-I'm very open to collaborations, so if this interests you as well, send me an e-mail!
+I'm very open to collaborations, so if this interests you as well, feel free to send me an e-mail!
 
-You can find a list of publications with links to code [here](/_pages/publications)!
+You can find a list of publications with links to code [here](/_pages/publications).

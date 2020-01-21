@@ -23,14 +23,11 @@ author:
   avatar           : "img/profile.jpg"
   bio              : "PhD student @ University of Antwerp"
   location         : "Antwerp, Belgium"
-  email            : "olivier DOT jeunen AT uantwerp DOT be"
+  email            : "olivier.jeunen@uantwerp.be"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://olivierjeunen.github.io/"
+      url: "mailto:olivier.jeunen@uantwerp.be"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/olivierjeunen"
@@ -39,7 +36,7 @@ author:
       url: "https://github.com/olivierjeunen"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url:
+      url: "https://www.linkedin.com/in/olivier-jeunen-6ba928114/"
 
 author_profile: true
 
@@ -54,7 +51,7 @@ footer:
       url: "https://github.com/olivierjeunen"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url:
+      url: "https://www.linkedin.com/in/olivier-jeunen-6ba928114/"
 
 defaults:
   # _pages
