@@ -1,9 +1,10 @@
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast"
 title: Olivier Jeunen
 name: Olivier Jeunen
 description: PhD student @ University of Antwerp, Belgium
+
+layout: single
 
 plugins:
   - jekyll-paginate
