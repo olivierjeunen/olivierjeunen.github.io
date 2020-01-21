@@ -2,7 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 title: Olivier Jeunen
 name: Olivier Jeunen
 description: PhD student @ University of Antwerp, Belgium
-logo: img/RecSysPhoto.jpg
+#logo: img/RecSysPhoto.jpg
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -10,3 +10,42 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+include: ["_pages"]
+
+# Site Author
+author:
+  name             : "Your Name"
+  avatar           : "img/RecSysPhoto.jpg"
+  bio              : "PhD Student @ University of Antwerp"
+  location         : "Antwerp, Belgium"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url:
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url:
