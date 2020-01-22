@@ -17,7 +17,6 @@ plugins:
 
 include: 
     - _pages
-    - _posts
 
 # Site Author
 author:
@@ -123,7 +122,6 @@ whitelist:
   - jekyll-include-cache
   - jekyll-archives
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -140,23 +138,24 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-post_archive:
-  type: jekyll-archives
+
+#post_archive:
+#  type: jekyll-archives
 
 # https://github.com/jekyll/jekyll-archives
  jekyll-archives:
    enabled:
      - categories
      - tags
-     - posts
+#     - posts
    layouts:
      category: archive-taxonomy
      tag: archive-taxonomy
-     post: archive-taxonomy
+#     post: archive-taxonomy
    permalinks:
      category: /categories/:name/
      tag: /tags/:name/
-     post: /posts/:name/
+#     post: /posts/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
