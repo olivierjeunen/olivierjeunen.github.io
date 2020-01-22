@@ -29,7 +29,7 @@ D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML ’
 
 - Interactive Evaluation of Recommender Systems with SNIPER - An Episode Mining Approach.  
 S. Moens, **O. Jeunen**, B. Goethals. **RecSys ’19** (_Demo_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/MoensRecSys19_Demo.pdf)\]
+\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/MoensRecSys19_Demo.pdf), [code](https://bitbucket.org/sandymoens/sniper/src/master/), [video](https://www.youtube.com/watch?v=S23qbU1PbhY)]
 
 - Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
 **O. Jeunen**, B. Goethals. **WSDM Cup ’19** (_WSDM Workshop_)  
