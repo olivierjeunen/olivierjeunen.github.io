@@ -8,7 +8,3 @@ Summer of 2019, during my PhD studies, I interned with [Criteo](https://ailab.cr
 This experience has spiked my interest in applications of causal and counterfactual inference in recommendation settings.
 
 I'm very open to collaborations, so if this interests you as well, feel free to send me an e-mail!
-
-You can find a list of publications with links to code [here](/_pages/publications).
-
-My full resume can be downloaded [here](/img/Resume_20012020_small.pdf) (_last updated 20/01/2020_).

@@ -3,5 +3,7 @@ main:
     url: /
   - title: "Publications"
     url: /_pages/publications
+  - title: "Resume"
+    url: /img/Resume_20012020_small.pdf
   - title: "Blog"
     url: /_pages/blog

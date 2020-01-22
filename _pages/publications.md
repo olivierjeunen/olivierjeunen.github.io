@@ -1,4 +1,6 @@
-## List of Publications
+---
+title: Publications
+---
 
 [Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen)
 
