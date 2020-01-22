@@ -13,7 +13,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-archive
+  - jekyll-archives
 
 include: 
     - _pages
