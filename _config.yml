@@ -1,8 +1,8 @@
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
-title: Home | Olivier Jeunen
+title: Home 
 name: Olivier Jeunen
-description: PhD student @ University of Antwerp, Belgium
+description: PhD student @ University of Antwerp
 
 layout: single
 
@@ -16,6 +16,7 @@ plugins:
 
 include: 
     - _pages
+    - _posts
 
 # Site Author
 author:
@@ -60,6 +61,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 
 encoding: "utf-8"
