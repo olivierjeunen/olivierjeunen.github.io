@@ -1,7 +1,8 @@
+#theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
-title: Home
+title: Home | Olivier Jeunen
 name: Olivier Jeunen
-description: PhD student @ University of Antwerp
+description: PhD student @ University of Antwerp, Belgium
 
 layout: single
 
@@ -12,9 +13,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-archives
 
-include:
+include: 
     - _pages
 
 # Site Author
@@ -61,19 +61,6 @@ defaults:
       layout: single
       author_profile: true
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -112,6 +99,14 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -119,7 +114,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-archives
+
 
 # Archives
 #  Type
@@ -137,24 +132,18 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-#post_archive:
-#  type: jekyll-archives
-
 # https://github.com/jekyll/jekyll-archives
- jekyll-archives:
-   enabled:
-     - categories
-     - tags
-#     - posts
-   layouts:
-     category: archive-taxonomy
-     tag: archive-taxonomy
-#     post: archive-taxonomy
-   permalinks:
-     category: /categories/:name/
-     tag: /tags/:name/
-#     post: /posts/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
 
 # HTML Compression
 # - https://jch.penibelst.de/
