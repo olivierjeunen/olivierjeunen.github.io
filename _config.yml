@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes"
-title: Home 
+title: Home
 name: Olivier Jeunen
 description: PhD student @ University of Antwerp
 
@@ -14,7 +14,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
 
-include: 
+include:
     - _pages
 
 # Site Author
