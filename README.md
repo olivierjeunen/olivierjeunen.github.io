@@ -7,4 +7,6 @@ Throughout my MSc studies, I was lucky to have research collaborations and inter
 Summer of 2019, during my PhD studies, I interned with [Criteo](https://ailab.criteo.com/)'s _causal recommendations_ team in Paris.
 This experience has spiked my interest in applications of causal and counterfactual inference in recommendation settings.
 
-I'm very open to collaborations, so if this interests you as well, feel free to send me an e-mail!
+To dive deeper into this, I'll be interning with [Pandora](https://www.pandora.com/about) in Oakland next summer, and with [Facebook](https://research.fb.com/) in London next autumn.
+
+I'm always open to collaborations so if this interests you, feel free to send me an e-mail!
