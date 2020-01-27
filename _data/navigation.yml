@@ -2,7 +2,7 @@ main:
   - title: "About"
     url: /
   - title: "Publications"
-    url: /_pages/publications
+    url: /publications/
   - title: "Resume"
     url: /img/Resume_20012020_small.pdf
   - title: "RecoGym Challenge"
