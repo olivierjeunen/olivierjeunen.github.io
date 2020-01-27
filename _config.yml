@@ -151,3 +151,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Analytics
+analytics:
+  provider               : "google-universal" #, "google-universal", "custom"
+  google:
+    tracking_id          : "UA-157020760-1"
+    anonymize_ip         : true #, false (default)
