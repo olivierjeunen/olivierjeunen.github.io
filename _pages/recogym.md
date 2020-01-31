@@ -79,11 +79,13 @@ As this strongly relates to (simplified) RL methods such as multi-armed and cont
 Figures 1 and 2 further clarify this distinction.
 
 <img align='center' src='/img/rl-setup.png' width = 1024px></img>
+![](/img/rl-setup.png)
 <figcaption>
         Figure 1: A schematic representation of the reinforcement learning paradigm adopted by RecoGym, visualising the distinction between organic and bandit behaviour and how the user and agent interact with one another.
 </figcaption>
 
 <img align='center' src='/img/organic-bandit.png' width = 1024px></img>
+![](/img/organic-bandit.png)
 <figcaption>
         Figure 2: Organic data contains information about users' observed browsing patterns. Bandit data contains information about users (not) responding to system actions (interventions).
 </figcaption>
@@ -133,6 +135,7 @@ The behaviour of a single user is modelled as a Markov chain, being either in an
 Figure 3 visualises this process for clarity. The organic state implies the user is currently browsing the item catalog, and generates interactions $(u,i) \in \mathcal{P}$. The bandit state on the other hand requires interventions from the agent, and generates samples $(\mathbf{x},a,p,c) \in \mathcal{D}$.
 
 <img align='center' src='/img/RecoGym FSM.svg' width = 512px></img>
+![](/img/RecoGym FSM.svg)
 <figcaption>
         Figure 3: Visualisation of the Markov chain that represents user behaviour. Users can either be in an "organic" state (O) or a "bandit" state (B). "E" represents the exit state that signals the end of this users' behaviour. State transition probabilities are configurable parameters.
 </figcaption>
@@ -215,6 +218,7 @@ Because $\mathbf{a}$ is sparse, so is $(\mathbf{x} \otimes \mathbf{a})$.
 SciPy provides many ways of efficiently dealing with sparse matrices [14].
 
 Many out-of-the-box classifiers exist and are widely available to model the probability of a click:
+
 $$ P(C | \mathbf{x}, a).$$
 
 We looked into logistic regression, naive Bayes, random forests, gradient-boosted trees, multilayer perceptrons et cetera.
