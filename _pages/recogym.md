@@ -3,9 +3,9 @@ title: Lessons Learned from Winning the RecoGym Challenge
 classes: wide
 author_profile: true
 share: true
-toc: true
-toc_label: Table of Contents
-toc_icon: compass
+#toc: true
+#toc_label: Table of Contents
+#toc_icon: compass
 permalink: /recogym/
 ---
 ######  Written by Olivier Jeunen and Bart Goethals
