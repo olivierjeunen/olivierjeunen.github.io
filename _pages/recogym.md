@@ -7,6 +7,8 @@ share: true
 #toc_label: Table of Contents
 #toc_icon: compass
 permalink: /recogym/
+header:
+  image: /img/lightbulb-header.jpg
 ---
 ######  Written by Olivier Jeunen and Bart Goethals
 <script type="text/x-mathjax-config">
