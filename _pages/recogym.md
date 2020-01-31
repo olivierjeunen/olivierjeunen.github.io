@@ -78,13 +78,11 @@ Instead of purely focusing on this _organic_ user behaviour data, we could look 
 As this strongly relates to (simplified) RL methods such as multi-armed and contextual bandits, this is aptly called _bandit_ feedback.
 Figures 1 and 2 further clarify this distinction.
 
-<img align='center' src='/img/rl-setup.png' width = 1024px></img>
 ![](/img/rl-setup.png)
 <figcaption>
         Figure 1: A schematic representation of the reinforcement learning paradigm adopted by RecoGym, visualising the distinction between organic and bandit behaviour and how the user and agent interact with one another.
 </figcaption>
 
-<img align='center' src='/img/organic-bandit.png' width = 1024px></img>
 ![](/img/organic-bandit.png)
 <figcaption>
         Figure 2: Organic data contains information about users' observed browsing patterns. Bandit data contains information about users (not) responding to system actions (interventions).
@@ -112,15 +110,19 @@ In what follows, we provide an overview of the actual simulation framework behin
 RecoGym adopts a latent factor model of user behaviour, as widely accepted in the literature [7].
 When the environment is set up, the system generates an embedding consisting of $K$ latent factors for every item.
 These embeddings are represented in a real-valued matrix $\Gamma \in \mathbb{R}^{|\mathcal{I}|\times {K}}$ and drawn from a multivariate Gaussian distribution centred around 0 with unit variance:  
+
 $$ \Gamma \sim \mathcal{N}(0,1).$$  
 
 A notion of item popularity is modelled as an additive bias per item: $\mu \in \mathbb{R}^{|\mathcal{I}|}$, normally distributed with a configurable variance:  
+
 $$\mu \sim \mathcal{N}(0,\sigma_\mu^2).$$  
 
 $\Gamma$ and $\mu$ directly impact how users organically interact with these items.
 The RecoGym authors argue that bandit behaviour for an item would be _different_, but _similar_ to the organic behaviour for a given item.
 The rationale being that users' natural browsing behaviour and reactions to recommendations are related, but not an exact one-to-one mapping.
-As such, bandit embeddings and popularities are obtained by performing a transformation $f$ on the  organic parameters: $$ \Xi, \mu' = f(\Gamma, \mu).$$
+As such, bandit embeddings and popularities are obtained by performing a transformation $f$ on the  organic parameters: 
+
+$$ \Xi, \mu' = f(\Gamma, \mu).$$
 
 We will not go further in-depth on how this transformation $f$ is performed, as it is of marginal importance for the purposes of this blogpost.
 Interested readers are referred to the [Reco-Gym source code](https://github.com/criteo-research/reco-gym/blob/master/recogym/envs/reco_env_v1.py). [^1]
@@ -128,13 +130,14 @@ Interested readers are referred to the [Reco-Gym source code](https://github.com
 [^1]: The original code uses $B$ instead of $\Xi$, we decided to change this to avoid confusion with the bandit state in the Markov chain representing user behaviour.
 
 Users are described by vectors that conceptually reside in the same latent space as the items.
-That is, a user embedding $\omega \in \mathbb{R}^{K}$ is sampled from a multivariate Gaussian distribution with configurable variance: $$\omega \sim \mathcal{N}(0,\sigma_u^2).$$
+That is, a user embedding $\omega \in \mathbb{R}^{K}$ is sampled from a multivariate Gaussian distribution with configurable variance: 
+
+$$\omega \sim \mathcal{N}(0,\sigma_u^2).$$
 
 Users are simulated sequentially and independently.
 The behaviour of a single user is modelled as a Markov chain, being either in an "organic" (O) or "bandit" state (B).
 Figure 3 visualises this process for clarity. The organic state implies the user is currently browsing the item catalog, and generates interactions $(u,i) \in \mathcal{P}$. The bandit state on the other hand requires interventions from the agent, and generates samples $(\mathbf{x},a,p,c) \in \mathcal{D}$.
 
-<img align='center' src='/img/RecoGym FSM.svg' width = 512px></img>
 ![](/img/RecoGym FSM.svg)
 <figcaption>
         Figure 3: Visualisation of the Markov chain that represents user behaviour. Users can either be in an "organic" state (O) or a "bandit" state (B). "E" represents the exit state that signals the end of this users' behaviour. State transition probabilities are configurable parameters.
@@ -143,15 +146,18 @@ Figure 3 visualises this process for clarity. The organic state implies the user
 ### Organic Views
 The next item a user views organically is sampled from a categorical distribution, where the individual probabilities for every item are proportional to how similar the user and the respective item's latent _organic_ embeddings are.
 Formally, given $u$, we draw $ i \sim \text{Categorical}(\rho)$ where
+
 $$\rho_i \propto  \omega^{\intercal} \Gamma_{i,\cdot} + \mu_i.$$
 
 ### Bandit Feedback on Recommendations
 When an action is performed by the agent, the probability of it actually leading to a click is Bernoulli-distributed, with the probability of success being dependent on the similarity between the user and the recommendation's _bandit_ embedding:
 
 $$ c \sim Bernoulli(p) ,$$
+
 $$ p \propto \omega^{\intercal} \cdot B_{a,\cdot} + \mu_a'.$$
 
 Naturally, consistently taking the action $a^*$ with the highest probability of leading to a click leads to an optimal recommendation policy.
+
 $$a^* = \text{arg}\max\limits_{a}(\omega^{\intercal} \cdot B_{a,\cdot} + \mu_a')$$
 
 
@@ -174,10 +180,11 @@ This agent is often referred to as the logging policy, or $\pi_0$.
 The logging policy that generated training data for the challenge was based on a stochastic baseline algorithm that only focuses on the organic data.
 It recommends items proportional to how often they have appeared in the users organic item views.
 In the context of online advertising, this makes sense: the user has already shown interest in that given item, so advertising it more often sounds reasonable.  
-
 If we assume the user state $\mathbf{x} \in \mathbb{R}^{|\mathcal{I}|}$ to be a bag-of-words representation of the user $u$'s organic viewing behaviour, it can be formalised as follows:  
 
-$$ \mathbf{x}_i = \sum_{u,j \in \mathcal{P}} \mathbb{1}\{i = j\} \text{, and } \pi_0(a|\mathbf{x}) = \frac{\mathbf{x_a}}{\sum_{j}\mathbf{x}_j} .$$
+
+$$ \mathbf{x}_i = \sum_{u,j \in \mathcal{P}} \mathbb{1}\{i = j\} \text{, and } \pi_0(a|\mathbf{x}) = \frac{\mathbf{x_a}}{\sum_{j}\mathbf{x}_j}. $$
+
 
 It is interesting to note that this logging policy does __not__ have support over the entire action space $\mathcal{I}$.
 This implies that certain $(\mathbf{x},a)$ combinations will never occur in the training data as $\pi_0(a|\mathbf{x}) = 0$.
@@ -219,7 +226,7 @@ SciPy provides many ways of efficiently dealing with sparse matrices [14].
 
 Many out-of-the-box classifiers exist and are widely available to model the probability of a click:
 
-$$ P(C | \mathbf{x}, a).$$
+$$ P(C | \mathbf{x}, a). $$
 
 We looked into logistic regression, naive Bayes, random forests, gradient-boosted trees, multilayer perceptrons et cetera.
 All were able to provide models with decent performance, but the gains from more advanced algorithms were marginal.
@@ -232,7 +239,8 @@ Auto-encoders gave us promising results in this direction.
 ### Policy Learning
 In the end, modelling whether a context-action pair will lead to a click is only a rest stop on the road to getting more clicks.
 We might want to directly model a policy $\pi(a|\mathbf{x})$, mapping contexts to actions:
-$$ P(A | \mathbf{x}).$$
+
+$$ P(A | \mathbf{x}). $$
 
 This type of model can be optimised in many ways.
 The most common is to define some estimator  $\mathcal{R}(\pi,\mathcal{D})$ of the reward that the policy $\pi$ can obtain, based on a dataset of logged bandit feedback $\mathcal{D}$.
@@ -276,6 +284,7 @@ This Section will discuss the specifics of our methodology.
 For notational simplicity, we will denote the Kronecker-product between the action- and user-specific features as $\mathbf{X} \equiv \mathbf{x} \otimes \mathbf{a}$.
 
 Bayes' theorem states the following:
+
 $$ P(C = 1 | \mathbf{X}) = \frac{P(C = 1) P(\mathbf{X} | C = 1)}{P(\mathbf{X})} .$$
 
 Naively assuming conditional independence between the features, gives us
@@ -322,30 +331,30 @@ We discussed shortcomings of classical approaches to recommendation, difficultie
 We would like to stress once again that this was a team achievement, and thank the participating students for their hard work and effort.
 Additionally, we thank the organisers at Criteo for setting up the competition, and hope this can spark further research at the intersection of RL, counterfactual interference and recommendation systems.
 
-### References
-[1] Jeunen, Olivier. "Revisiting offline evaluation for implicit-feedback recommender systems." Proceedings of the 13th ACM Conference on Recommender Systems. 2019.
-[2] Lefortier, Damien, et al. "Large-scale validation of counterfactual learning methods: A test-bed." arXiv preprint arXiv:1612.00367 (2016).
-[3] Brockman, Greg, et al. "OpenAI Gym." arXiv preprint arXiv:1606.01540 (2016).
-[4] Rohde, David, et al. "Recogym: A reinforcement learning environment for the problem of product recommendation in online advertising." arXiv preprint arXiv:1808.00720 (2018).
-[5] Sarwar, Badrul, et al. "Item-based collaborative filtering recommendation algorithms." Proceedings of the 10th international conference on World Wide Web. 2001.
-[6] Verstrepen, Koen, and Bart Goethals. "Unifying nearest neighbors collaborative filtering." Proceedings of the 8th ACM Conference on Recommender systems. 2014.
-[7] Koren, Yehuda, Robert Bell, and Chris Volinsky. "Matrix factorization techniques for recommender systems." Computer 42.8 (2009): 30-37.
-[8] Ning, Xia, and George Karypis. "SLIM: Sparse linear methods for top-n recommender systems." 2011 IEEE 11th International Conference on Data Mining. IEEE, 2011.
-[9] Liang, Dawen, et al. "Variational autoencoders for collaborative filtering." Proceedings of the 2018 World Wide Web Conference. 2018.
-[10] Steck, Harald. "Embarrassingly shallow autoencoders for sparse data." The World Wide Web Conference. 2019.
-[11] Jeunen, Olivier, et al. "Learning from Bandit Feedback: An Overview of the State-of-the-art." arXiv preprint arXiv:1909.08471 (2019).
-[12] Jeunen, Olivier, David Rohde, and Flavian Vasile. "On the Value of Bandit Feedback for Offline Recommender System Evaluation." arXiv preprint arXiv:1907.12384 (2019).
-[13] Nguyen-Thanh, Nhan, et al. "Recommendation System-based Upper Confidence Bound for Online Advertising." arXiv preprint arXiv:1909.04190 (2019).
-[14] Bressert, Eli. SciPy and NumPy: an overview for developers. " O'Reilly Media, Inc.", 2012.
-[15] Owen, Art. Monte Carlo Theory, Methods and Examples. 2013.
-[16] Bottou, Léon, et al. "Counterfactual reasoning and learning systems: The example of computational advertising." The Journal of Machine Learning Research 14.1 (2013): 3207-3260.
-[17] Williams, Ronald J. "Simple statistical gradient-following algorithms for connectionist reinforcement learning." Machine learning 8.3-4 (1992): 229-256.
-[18] Chen, Minmin, et al. "Top-k off-policy correction for a REINFORCE recommender system." Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining. 2019.
-[19] Mykhaylov, Dmytro, et al. "Three Methods for Training on Bandit Feedback." arXiv preprint arXiv:1904.10799 (2019).
-[20] Swaminathan, Adith, and Thorsten Joachims. "Counterfactual risk minimization: Learning from logged bandit feedback." International Conference on Machine Learning. 2015.
-[21] Li, Lihong, et al. "A contextual-bandit approach to personalized news article recommendation." Proceedings of the 19th international conference on World wide web. 2010.
-[22] Chapelle, Olivier, and Lihong Li. "An empirical evaluation of thompson sampling." Advances in neural information processing systems. 2011.
-[23] Dumitrascu, Bianca, Karen Feng, and Barbara Engelhardt. "PG-TS: Improved Thompson sampling for logistic contextual bandits." Advances in neural information processing systems. 2018.
-[24] Ng, Andrew Y., and Michael I. Jordan. "On discriminative vs. generative classifiers: A comparison of logistic regression and naive bayes." Advances in neural information processing systems. 2002.
-[25] Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. Introduction to information retrieval. Cambridge university press, 2008.
+### References  
+[1] Jeunen, Olivier. "Revisiting offline evaluation for implicit-feedback recommender systems." Proceedings of the 13th ACM Conference on Recommender Systems. 2019.  
+[2] Lefortier, Damien, et al. "Large-scale validation of counterfactual learning methods: A test-bed." arXiv preprint arXiv:1612.00367 (2016).  
+[3] Brockman, Greg, et al. "OpenAI Gym." arXiv preprint arXiv:1606.01540 (2016).  
+[4] Rohde, David, et al. "Recogym: A reinforcement learning environment for the problem of product recommendation in online advertising." arXiv preprint arXiv:1808.00720 (2018).  
+[5] Sarwar, Badrul, et al. "Item-based collaborative filtering recommendation algorithms." Proceedings of the 10th international conference on World Wide Web. 2001.  
+[6] Verstrepen, Koen, and Bart Goethals. "Unifying nearest neighbors collaborative filtering." Proceedings of the 8th ACM Conference on Recommender systems. 2014.  
+[7] Koren, Yehuda, Robert Bell, and Chris Volinsky. "Matrix factorization techniques for recommender systems." Computer 42.8 (2009): 30-37.  
+[8] Ning, Xia, and George Karypis. "SLIM: Sparse linear methods for top-n recommender systems." 2011 IEEE 11th International Conference on Data Mining. IEEE, 2011.  
+[9] Liang, Dawen, et al. "Variational autoencoders for collaborative filtering." Proceedings of the 2018 World Wide Web Conference. 2018.  
+[10] Steck, Harald. "Embarrassingly shallow autoencoders for sparse data." The World Wide Web Conference. 2019.  
+[11] Jeunen, Olivier, et al. "Learning from Bandit Feedback: An Overview of the State-of-the-art." arXiv preprint arXiv:1909.08471 (2019).  
+[12] Jeunen, Olivier, David Rohde, and Flavian Vasile. "On the Value of Bandit Feedback for Offline Recommender System Evaluation." arXiv preprint arXiv:1907.12384 (2019).  
+[13] Nguyen-Thanh, Nhan, et al. "Recommendation System-based Upper Confidence Bound for Online Advertising." arXiv preprint arXiv:1909.04190 (2019).  
+[14] Bressert, Eli. SciPy and NumPy: an overview for developers. " O'Reilly Media, Inc.", 2012.  
+[15] Owen, Art. Monte Carlo Theory, Methods and Examples. 2013.  
+[16] Bottou, Léon, et al. "Counterfactual reasoning and learning systems: The example of computational advertising." The Journal of Machine Learning Research 14.1 (2013): 3207-3260.  
+[17] Williams, Ronald J. "Simple statistical gradient-following algorithms for connectionist reinforcement learning." Machine learning 8.3-4 (1992): 229-256.  
+[18] Chen, Minmin, et al. "Top-k off-policy correction for a REINFORCE recommender system." Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining. 2019.  
+[19] Mykhaylov, Dmytro, et al. "Three Methods for Training on Bandit Feedback." arXiv preprint arXiv:1904.10799 (2019).  
+[20] Swaminathan, Adith, and Thorsten Joachims. "Counterfactual risk minimization: Learning from logged bandit feedback." International Conference on Machine Learning. 2015.  
+[21] Li, Lihong, et al. "A contextual-bandit approach to personalized news article recommendation." Proceedings of the 19th international conference on World wide web. 2010.  
+[22] Chapelle, Olivier, and Lihong Li. "An empirical evaluation of thompson sampling." Advances in neural information processing systems. 2011.  
+[23] Dumitrascu, Bianca, Karen Feng, and Barbara Engelhardt. "PG-TS: Improved Thompson sampling for logistic contextual bandits." Advances in neural information processing systems. 2018.  
+[24] Ng, Andrew Y., and Michael I. Jordan. "On discriminative vs. generative classifiers: A comparison of logistic regression and naive bayes." Advances in neural information processing systems. 2002.  
+[25] Manning, Christopher D., Prabhakar Raghavan, and Hinrich Schütze. Introduction to information retrieval. Cambridge university press, 2008.  
 
