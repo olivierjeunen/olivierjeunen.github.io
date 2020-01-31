@@ -5,6 +5,14 @@ author_profile: true
 permalink: /recogym/
 ---
 ######  Written by Olivier Jeunen and Bart Goethals
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -70,21 +78,15 @@ Instead of purely focusing on this _organic_ user behaviour data, we could look 
 As this strongly relates to (simplified) RL methods such as multi-armed and contextual bandits, this is aptly called _bandit_ feedback.
 Figures 1 and 2 further clarify this distinction.
 
-<figure>
-	<img align='center' src='/img/rl-setup.png' width = 1024px></img>
-	<figcaption>
-		Figure 1: A schematic representation of the reinforcement learning paradigm adopted by RecoGym, visualising the distinction between organic and bandit behaviour and how the user and agent interact with one another.
-	</figcaption>
-</figure>
+<img align='center' src='/img/rl-setup.png' width = 1024px></img>
+<figcaption>
+        Figure 1: A schematic representation of the reinforcement learning paradigm adopted by RecoGym, visualising the distinction between organic and bandit behaviour and how the user and agent interact with one another.
+</figcaption>
 
-<figure>
-	<img align='center' src='/img/organic-bandit.png' width = 1024px></img>
-	<figcaption>
-		Figure 2: Organic data contains information about users' observed browsing patterns. Bandit data contains information about users (not) responding to system actions (interventions).
-	</figcaption>
-</figure>
-
-
+<img align='center' src='/img/organic-bandit.png' width = 1024px></img>
+<figcaption>
+        Figure 2: Organic data contains information about users' observed browsing patterns. Bandit data contains information about users (not) responding to system actions (interventions).
+</figcaption>
 
 A dataset of logged bandit feedback $\mathcal{D}$ consists of tuples $(\mathbf{x}, a, p, c)$.
 Generally speaking, this data has been collected under some stochastic logging policy $\pi_0$ that describes a probability distribution over actions (_recommendations_), conditioned on some context (_user history_).
@@ -107,10 +109,11 @@ In what follows, we provide an overview of the actual simulation framework behin
 
 RecoGym adopts a latent factor model of user behaviour, as widely accepted in the literature [7].
 When the environment is set up, the system generates an embedding consisting of $K$ latent factors for every item.
-These embeddings are represented in a real-valued matrix $\Gamma \in \mathbb{R}^{|\mathcal{I}|\times {K}}$ and drawn from a multivariate Gaussian distribution centred around 0 with unit variance:
-$$ \Gamma \sim \mathcal{N}(0,1).$$
+These embeddings are represented in a real-valued matrix $\Gamma \in \mathbb{R}^{|\mathcal{I}|\times {K}}$ and drawn from a multivariate Gaussian distribution centred around 0 with unit variance:  
+$$ \Gamma \sim \mathcal{N}(0,1).$$  
 
-A notion of item popularity is modelled as an additive bias per item: $\mu \in \mathbb{R}^{|\mathcal{I}|}$, normally distributed with a configurable variance: $$\mu \sim \mathcal{N}(0,\sigma_\mu^2).$$
+A notion of item popularity is modelled as an additive bias per item: $\mu \in \mathbb{R}^{|\mathcal{I}|}$, normally distributed with a configurable variance:  
+$$\mu \sim \mathcal{N}(0,\sigma_\mu^2).$$  
 
 $\Gamma$ and $\mu$ directly impact how users organically interact with these items.
 The RecoGym authors argue that bandit behaviour for an item would be _different_, but _similar_ to the organic behaviour for a given item.
@@ -129,12 +132,10 @@ Users are simulated sequentially and independently.
 The behaviour of a single user is modelled as a Markov chain, being either in an "organic" (O) or "bandit" state (B).
 Figure 3 visualises this process for clarity. The organic state implies the user is currently browsing the item catalog, and generates interactions $(u,i) \in \mathcal{P}$. The bandit state on the other hand requires interventions from the agent, and generates samples $(\mathbf{x},a,p,c) \in \mathcal{D}$.
 
-<figure>
-	<img align='center' src='/img/RecoGym FSM.svg' width = 512px></img>
-	<figcaption>
-		Figure 3: Visualisation of the Markov chain that represents user behaviour. Users can either be in an "organic" state (O) or a "bandit" state (B). "E" represents the exit state that signals the end of this users' behaviour. State transition probabilities are configurable parameters.
-	</figcaption>
-</figure>
+<img align='center' src='/img/RecoGym FSM.svg' width = 512px></img>
+<figcaption>
+        Figure 3: Visualisation of the Markov chain that represents user behaviour. Users can either be in an "organic" state (O) or a "bandit" state (B). "E" represents the exit state that signals the end of this users' behaviour. State transition probabilities are configurable parameters.
+</figcaption>
 
 ### Organic Views
 The next item a user views organically is sampled from a categorical distribution, where the individual probabilities for every item are proportional to how similar the user and the respective item's latent _organic_ embeddings are.
@@ -169,9 +170,9 @@ This agent is often referred to as the logging policy, or $\pi_0$.
 
 The logging policy that generated training data for the challenge was based on a stochastic baseline algorithm that only focuses on the organic data.
 It recommends items proportional to how often they have appeared in the users organic item views.
-In the context of online advertising, this makes sense: the user has already shown interest in that given item, so advertising it more often sounds reasonable.
+In the context of online advertising, this makes sense: the user has already shown interest in that given item, so advertising it more often sounds reasonable.  
 
-If we assume the user state $\mathbf{x} \in \mathbb{R}^{|\mathcal{I}|}$ to be a bag-of-words representation of the user $u$'s organic viewing behaviour, it can be formalised as follows:
+If we assume the user state $\mathbf{x} \in \mathbb{R}^{|\mathcal{I}|}$ to be a bag-of-words representation of the user $u$'s organic viewing behaviour, it can be formalised as follows:  
 
 $$ \mathbf{x}_i = \sum_{u,j \in \mathcal{P}} \mathbb{1}\{i = j\} \text{, and } \pi_0(a|\mathbf{x}) = \frac{\mathbf{x_a}}{\sum_{j}\mathbf{x}_j} .$$
 
