@@ -79,11 +79,13 @@ As this strongly relates to (simplified) RL methods such as multi-armed and cont
 Figures 1 and 2 further clarify this distinction.
 
 ![](/img/rl-setup.png)
+
 <figcaption>
         Figure 1: A schematic representation of the reinforcement learning paradigm adopted by RecoGym, visualising the distinction between organic and bandit behaviour and how the user and agent interact with one another.
 </figcaption>
 
 ![](/img/organic-bandit.png)
+
 <figcaption>
         Figure 2: Organic data contains information about users' observed browsing patterns. Bandit data contains information about users (not) responding to system actions (interventions).
 </figcaption>
@@ -113,7 +115,10 @@ These embeddings are represented in a real-valued matrix $\Gamma \in \mathbb{R}^
 
 $$ \Gamma \sim \mathcal{N}(0,1).$$  
 
-A notion of item popularity is modelled as an additive bias per item: $\mu \in \mathbb{R}^{|\mathcal{I}|}$, normally distributed with a configurable variance:  
+
+A notion of item popularity is modelled as an additive bias per item: $\mu \in \mathbb{R}^{|\mathcal{I}|}$
+, normally distributed with a configurable variance:  
+
 
 $$\mu \sim \mathcal{N}(0,\sigma_\mu^2).$$  
 
@@ -139,6 +144,7 @@ The behaviour of a single user is modelled as a Markov chain, being either in an
 Figure 3 visualises this process for clarity. The organic state implies the user is currently browsing the item catalog, and generates interactions $(u,i) \in \mathcal{P}$. The bandit state on the other hand requires interventions from the agent, and generates samples $(\mathbf{x},a,p,c) \in \mathcal{D}$.
 
 ![](/img/RecoGym FSM.svg)
+
 <figcaption>
         Figure 3: Visualisation of the Markov chain that represents user behaviour. Users can either be in an "organic" state (O) or a "bandit" state (B). "E" represents the exit state that signals the end of this users' behaviour. State transition probabilities are configurable parameters.
 </figcaption>
@@ -164,6 +170,7 @@ $$a^* = \text{arg}\max\limits_{a}(\omega^{\intercal} \cdot B_{a,\cdot} + \mu_a')
 ### Training Data and the Logging Policy
 The table below shows the settings that were fixed for the evaluation of the competition.
 
+
 | Parameter          | Value |
 |:-------------------|:-----:|
 | # Items            | 100   |
@@ -172,6 +179,7 @@ The table below shows the settings that were fixed for the evaluation of the com
 | # Latent factors   | 5     |
 | Variance user state| 0.1   |
 | Variance item pop. | 3     |
+
 
 Naturally, when the training data is being generated, some agent needs to choose which actions to actually take.
 That is, which items to gather feedback for.
