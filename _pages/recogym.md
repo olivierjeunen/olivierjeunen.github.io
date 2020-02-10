@@ -10,7 +10,7 @@ permalink: /recogym/
 header:
   image: /img/lightbulb-header.jpg
 ---
-######  Written by Olivier Jeunen and Bart Goethals
+######  Written by Olivier Jeunen and Bart Goethals, January 31st 2020
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -166,11 +166,11 @@ When an action is performed by the agent, the probability of it actually leading
 
 $$ c \sim Bernoulli(p) ,$$
 
-$$ p \propto \omega^{\intercal} \cdot B_{a,\cdot} + \mu_a'.$$
+$$ p \propto \omega^{\intercal} \cdot \Xi_{a,\cdot} + \mu_a'.$$
 
 Naturally, consistently taking the action $a^*$ with the highest probability of leading to a click leads to an optimal recommendation policy.
 
-$$a^* = \text{arg}\max\limits_{a}(\omega^{\intercal} \cdot B_{a,\cdot} + \mu_a')$$
+$$a^* = \text{arg}\max\limits_{a}(\omega^{\intercal} \cdot \Xi_{a,\cdot} + \mu_a')$$
 
 
 ### Training Data and the Logging Policy

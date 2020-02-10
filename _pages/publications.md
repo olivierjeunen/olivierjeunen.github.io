@@ -7,6 +7,8 @@ author_profile: true
 
 [Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen)
 
+- A Gentle Introduction to Recommendation as Counterfactual Policy Learning.  
+F. Vasile, D. Rohde, **O.Jeunen** and A. Benhalloum. **UMAP '20** (_Tutorial, to appear_)  
 
 - Three Methods for Training on Bandit Feedback.  
 D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML ’19** (_NeurIPS Workshop_)  
