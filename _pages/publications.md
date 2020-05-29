@@ -11,7 +11,8 @@ author_profile: true
 **O.Jeunen**, D. Rohde, F. Vasile and M. Bompaire. **KDD'20** (_To appear_)  
 
 - A Gentle Introduction to Recommendation as Counterfactual Policy Learning.  
-F. Vasile, D. Rohde, **O.Jeunen** and A. Benhalloum. **UMAP'20** (_Tutorial, to appear_)  
+F. Vasile, D. Rohde, **O.Jeunen** and A. Benhalloum. **UMAP'20** (_Tutorial_)  
+\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/VasileUMAPTutorial2020.pdf)\]
 
 - Three Methods for Training on Bandit Feedback.  
 D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML’19** (_NeurIPS Workshop_)  
