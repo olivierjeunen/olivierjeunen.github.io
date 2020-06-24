@@ -8,11 +8,12 @@ author_profile: true
 [Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen)
 
 - Joint Policy-Value Learning for Recommendation.  
-**O.Jeunen**, D. Rohde, F. Vasile and M. Bompaire. **KDD'20** (_To appear_)  
+**O.Jeunen**, D. Rohde, F. Vasile and M. Bompaire. **KDD'20**  
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenKDD2020.pdf), [code](https://github.com/olivierjeunen/dual-bandit-kdd-2020)]
 
 - A Gentle Introduction to Recommendation as Counterfactual Policy Learning.  
 F. Vasile, D. Rohde, **O.Jeunen** and A. Benhalloum. **UMAP'20** (_Tutorial_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/VasileUMAPTutorial2020.pdf)\]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/VasileUMAPTutorial2020.pdf)\]
 
 - Three Methods for Training on Bandit Feedback.  
 D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML’19** (_NeurIPS Workshop_)  
@@ -28,24 +29,24 @@ D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML’1
 
 - Efficient Similarity Computation for Collaborative Filtering in Dynamic Environments.  
 **O. Jeunen**, K. Verstrepen, B. Goethals. **RecSys’19**  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/JeunenRecSys19_Full.pdf), [code](https://github.com/olivierjeunen/dynamicindex)]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_Full.pdf), [code](https://github.com/olivierjeunen/dynamicindex)]
 
 - Revisiting Offline Evaluation for Implicit-Feedback Recommender Systems.  
 **O. Jeunen**. **RecSys’19** (_Doctoral Symposium_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/JeunenRecSys19_DoctoralSymposium.pdf)\]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_DoctoralSymposium.pdf)\]
 
 - Interactive Evaluation of Recommender Systems with SNIPER - An Episode Mining Approach.  
 S. Moens, **O. Jeunen**, B. Goethals. **RecSys’19** (_Demo_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/MoensRecSys19_Demo.pdf), [code](https://bitbucket.org/sandymoens/sniper/src/master/), [video](https://www.youtube.com/watch?v=S23qbU1PbhY)]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/MoensRecSys19_Demo.pdf), [code](https://bitbucket.org/sandymoens/sniper/src/master/), [video](https://www.youtube.com/watch?v=S23qbU1PbhY)]
 
 - Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
 **O. Jeunen**, B. Goethals. **WSDM Cup’19** (_WSDM Workshop_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/WSDMCupJeunen2019.pdf), [code](https://github.com/olivierjeunen/sequential-skip-prediction)]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/WSDMCupJeunen2019.pdf), [code](https://github.com/olivierjeunen/sequential-skip-prediction)]
 
 - A Machine Learning Approach for IEEE 802.11 Channel Allocation.  
 **O. Jeunen**, P. Bosch, M. Van Herwegen, K. Van Doorselaer, N. Godman, S. Latré. **CNSM’18**  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/MasterThesisJeunen2018.pdf)\]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/MasterThesisJeunen2018.pdf)\]
 
 - Fair Offline Evaluation Methodologies for Implicit-Feedback Recommender Systems with MNAR Data.  
 **O. Jeunen**, K. Verstrepen, B. Goethals. **REVEAL’18** (_RecSys Workshop_)  
-\[[pdf](http://adrem.uantwerpen.be//bibrem/pubs/OfflineEvalJeunen2018.pdf)\]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/OfflineEvalJeunen2018.pdf)\]
