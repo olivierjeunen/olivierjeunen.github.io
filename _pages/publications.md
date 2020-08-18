@@ -7,6 +7,10 @@ author_profile: true
 
 [Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen)
 
+- Closed-Form Models for Collaborative Filtering with Side-Information.  
+**O.Jeunen**, J. Van Balen and B. Goethals. **RecSys'20** (_Late-Breaking-Result_)  
+\[_To Appear_, [code](https://github.com/olivierjeunen/ease-side-info-recsys-2020)]
+
 - Joint Policy-Value Learning for Recommendation.  
 **O.Jeunen**, D. Rohde, F. Vasile and M. Bompaire. **KDD'20**  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenKDD2020.pdf), [code](https://github.com/olivierjeunen/dual-bandit-kdd-2020)]
