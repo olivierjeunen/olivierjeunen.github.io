@@ -9,7 +9,7 @@ author_profile: true
 
 - An Empirical Evaluation of Doubly Robust Learning for Recommendation.  
 **O. Jeunen** and B. Goethals. **REVEAL’20** (_RecSys Workshop_)  
-\[_To Appear_\]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenREVEAL2020.pdf)\]
 
 - Closed-Form Models for Collaborative Filtering with Side-Information.  
 **O.Jeunen**, J. Van Balen and B. Goethals. **RecSys'20** (_Late-Breaking-Result_)  
