@@ -6,7 +6,6 @@ Working at the intersection of theory and application is what drives and excites
 Throughout my MSc studies, I was lucky to have research collaborations and internships with [Technicolor](https://www.technicolor.com/) and University of Antwerp spin-offs [Predicube](https://www.predicube.com/) and [Froomle](https://www.froomle.ai/).
 Summer of 2019, during my PhD studies, I interned with [Criteo](https://ailab.criteo.com/)'s _causal recommendations_ team in Paris.
 This experience has spiked my interest in applications of causal and counterfactual inference in recommendation settings.
-
-Diving deeper into these topics, I'm currently remotely interning with [Facebook](https://research.fb.com/) in London.
+Diving deeper into these topics, I interned with [Facebook](https://research.fb.com/) in London, autumn of 2020.
 
 Always open to collaborations so if this interests you, feel free to send me an e-mail!
