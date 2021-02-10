@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen)
+[Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen), [DBLP](https://dblp.org/pid/232/8079.html), [Semantic Scholar](https://www.semanticscholar.org/author/Olivier-Jeunen/52628148)
 
 ### Conferences
 1. Closed-Form Models for Collaborative Filtering with Side-Information.  
@@ -30,7 +30,7 @@ author_profile: true
 
 
 
-### Workshops, Tutorials \& Demos
+### Workshops, Tutorials & Demos
 
 
 6. Recommender Systems through the Lens of Decision Theory:  

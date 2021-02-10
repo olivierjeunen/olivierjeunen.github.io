@@ -6,4 +6,6 @@ More recently, I’ve been interested in approaches that view the recommendation
 Throughout my Master’s and PhD studies, I have been lucky to get the opportunity to collaborate with various industrial research laboratories.
 This started out with applying machine learning techniques to network and Internet of Things (IoT) data at [Technicolor](https://www.technicolor.com/) in 2015; since then I have done research at two University of Antwerp spin-offs [Predicube](https://www.predicube.com/) and [Froomle](https://www.froomle.ai/), and more recently interned with the [Criteo AI Lab](https://ailab.criteo.com/) and [Facebook](https://research.fb.com/).
 
+Summer of 2021, I'll be interning at [Spotify Research](https://research.atspotify.com/) to combine my passions for machine learning, causal inference, recommender systems and music.
+
 Always open to collaborations so if this interests you, feel free to send me an e-mail!
