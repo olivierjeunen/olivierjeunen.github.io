@@ -14,7 +14,7 @@ author_profile: true
 
 2. Top-K Contextual Bandits with Equity of Exposure.  
 **O. Jeunen** and B. Goethals. **RecSys'21**  
-\[_To appear_]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_B.pdf), [code](https://github.com/olivierjeunen/EARS-recsys-2021)]
 
 3. Closed-Form Models for Collaborative Filtering with Side-Information.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **RecSys'20** (_Late-Breaking-Result_)  
