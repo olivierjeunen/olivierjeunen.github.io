@@ -1,10 +1,9 @@
-I'm a final-year PhD student at the [University of Antwerp](https://www.uantwerpen.be/en/) in Belgium, working in the [Adrem Data Lab](http://adrem.uantwerpen.be/) under supervision of [Prof. Dr. Bart Goethals](https://www.uantwerpen.be/en/staff/bart-goethals/).
-My research interests revolve around machine learning, specifically its applications in information retrieval and recommender systems.
-Within this subfield, my work has ranged from core algorithms and scalability to evaluation.
-More recently, I’ve been interested in approaches that view the recommendation problem through the lens of bandit (or reinforcement) learning.
+I'm a final-year PhD student at the [University of Antwerp](https://www.uantwerpen.be/en/) in Belgium, working in the [Adrem Data Lab](http://adrem.uantwerpen.be/) under the supervision of [Prof. Dr. Bart Goethals](https://www.uantwerpen.be/en/staff/bart-goethals/).
+My research interests revolve around _machine learning_, specifically its applications in _information retrieval_ and _recommender systems_.
 
-Throughout my Master’s and PhD studies, I have been lucky to get the opportunity to collaborate with various industrial research laboratories.
-This started out with applying machine learning techniques to network and Internet of Things (IoT) data at [Technicolor](https://www.technicolor.com/) in 2015; since then I have done research at two University of Antwerp spin-offs [Predicube](https://www.predicube.com/) and [Froomle](https://www.froomle.ai/), and more recently interned with the [Criteo AI Lab](https://ailab.criteo.com/) and [Facebook](https://research.fb.com/).
+Recently, I’ve focused on approaches that view the recommendation problem through the lens of bandit (or reinforcement) learning.
+
+I enjoy working on a mix of theory and application, and have been lucky to collaborative with various industrial research laboratories.
 
 Summer of 2021, I'm interning at [Spotify Research](https://research.atspotify.com/) to combine my passions for machine learning, causal inference, recommender systems and music.
 
