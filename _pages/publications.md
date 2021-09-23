@@ -77,3 +77,11 @@ S. Moens, **O. Jeunen** and B. Goethals. **RecSys’19** (_Demo_)
 16. Fair Offline Evaluation Methodologies for Implicit-Feedback Recommender Systems with MNAR Data.  
 **O. Jeunen**, K. Verstrepen and B. Goethals. **REVEAL’18** (_RecSys Workshop_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/OfflineEvalJeunen2018.pdf)\]
+
+### Theses
+17. Offline Approaches to Recommendation with Online Success.  
+**PhD in Computer Science**, 2021.  
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/Jeunen2021PhDThesis.pdf)]
+
+18. Data-Driven Frequency Planning in IEEE 802.11 Networks.  
+**MSc in Computer Science**, 2017. 
