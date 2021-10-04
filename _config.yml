@@ -1,8 +1,8 @@
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
-title: Home
+title: Olivier Jeunen
 name: Olivier Jeunen
-description: PhD student @ University of Antwerp, Belgium
+description: Postdoc @ University of Antwerp, Belgium
 
 layout: single
 
@@ -21,7 +21,7 @@ include:
 author:
   name             : "Olivier Jeunen"
   avatar           : "img/profile.jpg"
-  bio              : "PhD student @ University of Antwerp"
+  bio              : "Postdoc @ University of Antwerp"
   location         : "Antwerp, Belgium"
   links:
     - label: "Email"
