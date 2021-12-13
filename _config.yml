@@ -2,7 +2,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 title: Olivier Jeunen
 name: Olivier Jeunen
-description: Postdoc @ University of Antwerp, Belgium
+description: Postdoc @ Amazon, UK
 
 layout: single
 
@@ -21,12 +21,12 @@ include:
 author:
   name             : "Olivier Jeunen"
   avatar           : "img/profile.jpg"
-  bio              : "Postdoc @ University of Antwerp"
-  location         : "Antwerp, Belgium"
+  bio              : "Postdoc @ Amazon"
+  location         : "Amazon, UK"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:olivier.jeunen@uantwerp.be"
+      url: "mailto:olivierjeunen@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/olivierjeunen"
