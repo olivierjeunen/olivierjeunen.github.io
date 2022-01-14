@@ -11,6 +11,7 @@ author_profile: true
 ### Journals
 1. Embarrassingly Shallow Auto-Encoders for Dynamic Collaborative Filtering.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **Springer UMUI'21** (_Special Issue on Dynamic Recommender Systems and User Modeling_)  
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenUMUAI2022.pdf)]
 
 
 ### Conferences
