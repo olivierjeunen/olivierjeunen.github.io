@@ -15,7 +15,7 @@ author_profile: true
 
 ### Conferences
 1. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
-**O. Jeunen** and B. Goethals. **RecSys'21**  
+**O. Jeunen** and B. Goethals. **RecSys'21** (__Best Student Paper__) 
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_A.pdf), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
 2. Top-K Contextual Bandits with Equity of Exposure.  
