@@ -47,52 +47,55 @@ author_profile: true
 
 ### Workshops, Tutorials & Demos
 
-8. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
+8. Learning to Bid with AuctionGym.  
+**O. Jeunen**, S. Murphy and B. Allison. **AdKDD '22** (_KDD Workshop_). 
+\[[pdf](https://assets.amazon.science/4f/3c/7f9a5c6c4181894d5e64c684c0d7/learning-to-bid-with-auctiongym.pdf)\]. 
+
+9. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
 **O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **WHY'21** (_NeurIPS Workshop_)  
-\[[webpage](http://adrem.uantwerpen.be/bibrem/pubs/JeunenWHY21.pdf)\]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenWHY21.pdf)\]
 
-
-9. Recommender Systems through the Lens of Decision Theory:  
+10. Recommender Systems through the Lens of Decision Theory:  
 Unifying Policy- and Vaue-based Aproaches to Recommendation.  
 F. Vasile, D. Rohde, **O. Jeunen**, A. Benhalloum and O. Sakhi. **WWW'21** (_Tutorial_)  
 \[[webpage](https://sites.google.com/view/recsys-as-decision-theory)\]
 
-10. An Empirical Evaluation of Doubly Robust Learning for Recommendation.  
+11. An Empirical Evaluation of Doubly Robust Learning for Recommendation.  
 **O. Jeunen** and B. Goethals. **REVEAL’20** (_RecSys Workshop_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenREVEAL2020.pdf)\]
 
-11. A Gentle Introduction to Recommendation as Counterfactual Policy Learning.  
+12. A Gentle Introduction to Recommendation as Counterfactual Policy Learning.  
 F. Vasile, D. Rohde, **O.Jeunen** and A. Benhalloum. **UMAP'20** (_Tutorial_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/VasileUMAPTutorial2020.pdf), [slides & notebooks](https://github.com/criteo-research/bandit-reco), [video](https://www.youtube.com/watch?v=hBeOxwTIawc)\]
 
-12. Three Methods for Training on Bandit Feedback.  
+13. Three Methods for Training on Bandit Feedback.  
 D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML’19** (_NeurIPS Workshop_)  
 \[[pdf](https://arxiv.org/pdf/1904.10799.pdf)\]
 
-13. Learning from Bandit Feedback: An Overview of the State-of-the-art.  
+14. Learning from Bandit Feedback: An Overview of the State-of-the-art.  
 **O. Jeunen**, D. Mykhaylov, D. Rohde, F. Vasile, A. Gilotte and M. Bompaire. **REVEAL’19** (_RecSys Workshop_)  
 \[[pdf](https://arxiv.org/pdf/1909.08471.pdf)\]
 
-14. On the Value of Bandit Feedback for Offline Recommender System Evaluation.  
+15. On the Value of Bandit Feedback for Offline Recommender System Evaluation.  
 **O. Jeunen**, D. Rohde and F. Vasile. **REVEAL’19** (_RecSys Workshop_)  
 \[[pdf](https://arxiv.org/pdf/1907.12384.pdf), [notebook](https://github.com/criteo-research/reco-gym/blob/master/Offline%20Evaluation%20with%20Bandit%20Feedback.ipynb)]
 
-15. Interactive Evaluation of Recommender Systems with SNIPER - An Episode Mining Approach.  
+16. Interactive Evaluation of Recommender Systems with SNIPER - An Episode Mining Approach.  
 S. Moens, **O. Jeunen** and B. Goethals. **RecSys’19** (_Demo_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/MoensRecSys19_Demo.pdf), [code](https://bitbucket.org/sandymoens/sniper/src/master/), [video](https://www.youtube.com/watch?v=S23qbU1PbhY)]
 
-16. Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
+17. Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
 **O. Jeunen** and B. Goethals. **WSDM Cup’19** (_WSDM Workshop_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/WSDMCupJeunen2019.pdf), [code](https://github.com/olivierjeunen/sequential-skip-prediction)]
 
-17. Fair Offline Evaluation Methodologies for Implicit-Feedback Recommender Systems with MNAR Data.  
+18. Fair Offline Evaluation Methodologies for Implicit-Feedback Recommender Systems with MNAR Data.  
 **O. Jeunen**, K. Verstrepen and B. Goethals. **REVEAL’18** (_RecSys Workshop_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/OfflineEvalJeunen2018.pdf)\]
 
 ### Theses
-18. Offline Approaches to Recommendation with Online Success.  
+19. Offline Approaches to Recommendation with Online Success.  
 **PhD in Computer Science**, 2021.  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/Jeunen2021PhDThesis.pdf)]
 
-19. Data-Driven Frequency Planning in IEEE 802.11 Networks.  
+20. Data-Driven Frequency Planning in IEEE 802.11 Networks.  
 **MSc in Computer Science**, 2017. 
