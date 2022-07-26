@@ -49,7 +49,7 @@ author_profile: true
 
 8. Learning to Bid with AuctionGym.  
 **O. Jeunen**, S. Murphy and B. Allison. **AdKDD '22** (_KDD Workshop_).  
-\[[pdf](https://assets.amazon.science/4f/3c/7f9a5c6c4181894d5e64c684c0d7/learning-to-bid-with-auctiongym.pdf)\], \[[code](https://github.com/amzn/auction-gym)\]
+\[[pdf](https://assets.amazon.science/4f/3c/7f9a5c6c4181894d5e64c684c0d7/learning-to-bid-with-auctiongym.pdf), [code](https://github.com/amzn/auction-gym)\]
 
 9. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
 **O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **WHY'21** (_NeurIPS Workshop_)  
