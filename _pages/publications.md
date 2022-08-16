@@ -16,7 +16,7 @@ author_profile: true
 
 ### Conferences
 2. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
-**O. Jeunen** and B. Goethals. **RecSys'21** (_Best Student Paper_)   
+**O. Jeunen** and B. Goethals. **RecSys'21** (_Best Student Paper Award_)   
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_A.pdf), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
 3. Top-K Contextual Bandits with Equity of Exposure.  
@@ -51,7 +51,7 @@ author_profile: true
 **O. Jeunen**, T. Joachims, H. Oosterhuis, Y. Saito and F. Vasile. **CONSEQUENCES '22** (_RecSys Workshop_).  
 
 10. Learning to Bid with AuctionGym.  
-**O. Jeunen**, S. Murphy and B. Allison. **AdKDD '22** (_KDD Workshop_).  
+**O. Jeunen**, S. Murphy and B. Allison. **AdKDD '22** (_KDD Workshop_, _Best Paper Award_).  
 \[[pdf](https://assets.amazon.science/4f/3c/7f9a5c6c4181894d5e64c684c0d7/learning-to-bid-with-auctiongym.pdf), [code](https://github.com/amzn/auction-gym)\]
 
 11. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
