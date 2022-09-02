@@ -10,7 +10,7 @@ author_profile: true
 
 ### Journals
 1. Pessimistic Decision-Making for Recommender Systems.  
-**O. Jeunen** and B. Goethals. **ACM ToRS'22** (_Special Issue on Highlights of RecSys '21_)  
+**O. Jeunen** and B. Goethals. **ACM ToRS'22** (_Special Issue on Highlights of RecSys '21_, To Appear)  
 
 2. Embarrassingly Shallow Auto-Encoders for Dynamic Collaborative Filtering.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **Springer UMUI'22** (_Special Issue on Dynamic Recommender Systems and User Modeling_)  
@@ -19,7 +19,7 @@ author_profile: true
 
 ### Conferences
 3. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
-**O. Jeunen** and B. Goethals. **RecSys'21** (_Best Student Paper Award_)   
+**O. Jeunen** and B. Goethals. **RecSys'21** ([_Best Student Paper Award_](https://recsys.acm.org/best-papers/))   
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_A.pdf), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
 4. Top-K Contextual Bandits with Equity of Exposure.  
@@ -54,8 +54,8 @@ author_profile: true
 **O. Jeunen**, T. Joachims, H. Oosterhuis, Y. Saito and F. Vasile. **CONSEQUENCES '22** (_RecSys Workshop_).  
 
 11. Learning to Bid with AuctionGym.  
-**O. Jeunen**, S. Murphy and B. Allison. **AdKDD '22** (_KDD Workshop_, _Best Paper Award_).  
-\[[pdf](https://assets.amazon.science/4f/3c/7f9a5c6c4181894d5e64c684c0d7/learning-to-bid-with-auctiongym.pdf), [code](https://github.com/amzn/auction-gym)\]
+**O. Jeunen**, S. Murphy and B. Allison. **AdKDD '22** (_KDD Workshop_, [_Best Paper Award_](https://www.adkdd.org/Papers/Learning-to-Bid-with-AuctionGym/2022)).  
+\[[pdf](https://assets.amazon.science/4f/3c/7f9a5c6c4181894d5e64c684c0d7/learning-to-bid-with-auctiongym.pdf), [code](https://github.com/amzn/auction-gym), [video](https://www.youtube.com/watch?v=4wlOv9ThOuI)\]
 
 12. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
 **O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **WHY'21** (_NeurIPS Workshop_)  
