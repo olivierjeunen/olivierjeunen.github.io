@@ -19,7 +19,7 @@ author_profile: true
 
 ### Conferences
 3. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
-**O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **NeurIPS'22**. 
+**O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **NeurIPS'22**.  
 \[[arXiv](https://arxiv.org/abs/2210.05446), [code](https://github.com/olivierjeunen/disentangling-neurips-2022)\]
 
 4. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
