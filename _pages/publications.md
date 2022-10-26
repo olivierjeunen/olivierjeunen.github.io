@@ -24,27 +24,27 @@ author_profile: true
 
 4. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
 **O. Jeunen** and B. Goethals. **RecSys'21** ([_Best Student Paper Award_](https://recsys.acm.org/best-papers/))   
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_A.pdf), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3460231.3474247?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_A.pdf), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
 5. Top-K Contextual Bandits with Equity of Exposure.  
 **O. Jeunen** and B. Goethals. **RecSys'21**  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_B.pdf), [code](https://github.com/olivierjeunen/EARS-recsys-2021)]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3460231.3474248?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_B.pdf), [code](https://github.com/olivierjeunen/EARS-recsys-2021)]
 
 6. Closed-Form Models for Collaborative Filtering with Side-Information.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **RecSys'20** (_Late-Breaking-Result_)  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys20.pdf), [code](https://github.com/olivierjeunen/ease-side-info-recsys-2020)]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3383313.3418480?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys20.pdf), [code](https://github.com/olivierjeunen/ease-side-info-recsys-2020)]
 
 7. Joint Policy-Value Learning for Recommendation.  
 **O. Jeunen**, D. Rohde, F. Vasile and M. Bompaire. **KDD'20**  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenKDD2020.pdf), [code](https://github.com/olivierjeunen/dual-bandit-kdd-2020)]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3394486.3403175?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenKDD2020.pdf), [code](https://github.com/olivierjeunen/dual-bandit-kdd-2020)]
 
 8. Efficient Similarity Computation for Collaborative Filtering in Dynamic Environments.  
 **O. Jeunen**, K. Verstrepen and B. Goethals. **RecSys’19**  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_Full.pdf), [code](https://github.com/olivierjeunen/dynamicindex)]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3298689.3347017?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_Full.pdf), [code](https://github.com/olivierjeunen/dynamicindex)]
 
 9. Revisiting Offline Evaluation for Implicit-Feedback Recommender Systems.  
 **O. Jeunen**. **RecSys’19** (_Doctoral Symposium_)  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_DoctoralSymposium.pdf)\]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3298689.3347069?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_DoctoralSymposium.pdf)\]
 
 10. A Machine Learning Approach for IEEE 802.11 Channel Allocation.  
 **O. Jeunen**, P. Bosch, M. Van Herwegen, K. Van Doorselaer, N. Godman and S. Latré. **CNSM’18**  
@@ -56,7 +56,7 @@ author_profile: true
 
 11. CONSEQUENCES — Causality, Counterfactuals and Sequential Decision-Making for Recommender Systems.  
 **O. Jeunen**, T. Joachims, H. Oosterhuis, Y. Saito and F. Vasile. **CONSEQUENCES '22** (_RecSys Workshop_).  
-\[[pdf](https://dl.acm.org/doi/abs/10.1145/3523227.3547409)\]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3523227.3547409?cid=99659463663)\]
 
 
 12. Learning to Bid with AuctionGym.  
@@ -74,7 +74,7 @@ I. Aouali, A. Benhalloum, M. Bompaire, B. Heymann, **O. Jeunen**, D. Rohde, O. S
 15. Recommender Systems through the Lens of Decision Theory:  
 Unifying Policy- and Vaue-based Aproaches to Recommendation.  
 F. Vasile, D. Rohde, **O. Jeunen**, A. Benhalloum and O. Sakhi. **WWW'21** (_Tutorial_)  
-\[[webpage](https://sites.google.com/view/recsys-as-decision-theory)\]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3442442.3453701?cid=99659463663), [webpage](https://sites.google.com/view/recsys-as-decision-theory)\]
 
 16. An Empirical Evaluation of Doubly Robust Learning for Recommendation.  
 **O. Jeunen** and B. Goethals. **REVEAL’20** (_RecSys Workshop_)  
@@ -82,7 +82,7 @@ F. Vasile, D. Rohde, **O. Jeunen**, A. Benhalloum and O. Sakhi. **WWW'21** (_Tut
 
 17. A Gentle Introduction to Recommendation as Counterfactual Policy Learning.  
 F. Vasile, D. Rohde, **O.Jeunen** and A. Benhalloum. **UMAP'20** (_Tutorial_)  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/VasileUMAPTutorial2020.pdf), [slides & notebooks](https://github.com/criteo-research/bandit-reco), [video](https://www.youtube.com/watch?v=hBeOxwTIawc)\]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3340631.3398666?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/VasileUMAPTutorial2020.pdf), [slides & notebooks](https://github.com/criteo-research/bandit-reco), [video](https://www.youtube.com/watch?v=hBeOxwTIawc)\]
 
 18. Three Methods for Training on Bandit Feedback.  
 D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML’19** (_NeurIPS Workshop_)  
@@ -98,7 +98,7 @@ D. Mykhaylov, D. Rohde, F. Vasile, M. Bompaire and **O. Jeunen**. **CausalML’1
 
 21. Interactive Evaluation of Recommender Systems with SNIPER - An Episode Mining Approach.  
 S. Moens, **O. Jeunen** and B. Goethals. **RecSys’19** (_Demo_)  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/MoensRecSys19_Demo.pdf), [code](https://bitbucket.org/sandymoens/sniper/src/master/), [video](https://www.youtube.com/watch?v=S23qbU1PbhY)]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3298689.3346965?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/MoensRecSys19_Demo.pdf), [code](https://bitbucket.org/sandymoens/sniper/src/master/), [video](https://www.youtube.com/watch?v=S23qbU1PbhY)]
 
 22. Predicting Sequential User Behaviour with Session-based Recurrent Neural Networks.  
 **O. Jeunen** and B. Goethals. **WSDM Cup’19** (_WSDM Workshop_)  
@@ -115,3 +115,4 @@ S. Moens, **O. Jeunen** and B. Goethals. **RecSys’19** (_Demo_)
 
 25. Data-Driven Frequency Planning in IEEE 802.11 Networks.  
 **MSc in Computer Science**, 2017. 
+
