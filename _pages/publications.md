@@ -10,11 +10,12 @@ author_profile: true
 
 ### Journals
 1. Pessimistic Decision-Making for Recommender Systems.  
-**O. Jeunen** and B. Goethals. **ACM ToRS'22** (_Special Issue on Highlights of RecSys '21_, To Appear)  
+**O. Jeunen** and B. Goethals. **ACM ToRS'22** (_Special Issue on Highlights of RecSys '21_)  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3568029?cid=99659463663), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
 2. Embarrassingly Shallow Auto-Encoders for Dynamic Collaborative Filtering.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **Springer UMUI'22** (_Special Issue on Dynamic Recommender Systems and User Modeling_)  
-\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenUMUAI2022.pdf)]
+\[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenUMUAI2022.pdf), [code](https://github.com/olivierjeunen/dynamic-easer)]
 
 
 ### Conferences
