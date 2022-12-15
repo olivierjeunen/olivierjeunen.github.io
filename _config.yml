@@ -2,7 +2,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 title: Olivier Jeunen
 name: Olivier Jeunen
-description: Postdoc @ Amazon, UK
+description: Lead Decision Scientist @ ShareChat, UK
 
 layout: single
 
@@ -21,7 +21,7 @@ include:
 author:
   name             : "Olivier Jeunen"
   avatar           : "img/profile.jpg"
-  bio              : "Postdoc @ Amazon"
+  bio              : "Lead Decision Scientist @ ShareChat"
   location         : "Edinburgh, UK"
   links:
     - label: "Email"
