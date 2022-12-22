@@ -55,13 +55,13 @@ author_profile: true
 
 ### Workshops, Tutorials & Demos
 
-11. Practical Bandits: An Industry Perspective.
+11. Practical Bandits: An Industry Perspective.  
 B. van den Akker, **O. Jeunen**, Y. Li, B. London, Z. Nazari and D. Parekh. **The WebConf'23** (_Tutorial_)  
 \[[webpage](https://sites.google.com/view/practical-bandits-tutorial/homepage)\]
 
 12. A Probabilistic Framework to Learn Auction Mechanisms via Gradient Descent.  
 **O. Jeunen**, L. Stavrogiannis, A. Sayedi and B. Allison. **AI4WebAds'23** (_AAAI Workshop_)  
-\[[pdf]([http://adrem.uantwerpen.be/bibrem/pubs/JeunenWHY21.pdf](https://assets.amazon.science/e2/e0/cb27970d4775966019f051628c62/a-probabilistic-framework-to-learn-auction-mechanisms-via-gradient-descent.pdf))\]
+\[[pdf](https://assets.amazon.science/e2/e0/cb27970d4775966019f051628c62/a-probabilistic-framework-to-learn-auction-mechanisms-via-gradient-descent.pdf)\]
 
 13. CONSEQUENCES — Causality, Counterfactuals and Sequential Decision-Making for Recommender Systems.  
 **O. Jeunen**, T. Joachims, H. Oosterhuis, Y. Saito and F. Vasile. **CONSEQUENCES '22** (_RecSys Workshop_).  
