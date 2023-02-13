@@ -65,7 +65,7 @@ B. van den Akker, **O. Jeunen**, Y. Li, B. London, Z. Nazari and D. Parekh. **Th
 
 13. A Probabilistic Framework to Learn Auction Mechanisms via Gradient Descent.  
 **O. Jeunen**, L. Stavrogiannis, A. Sayedi and B. Allison. **AI4WebAds'23** (_AAAI Workshop_)  
-\[[pdf](https://assets.amazon.science/e2/e0/cb27970d4775966019f051628c62/a-probabilistic-framework-to-learn-auction-mechanisms-via-gradient-descent.pdf)\]
+\[[pdf](https://assets.amazon.science/e2/e0/cb27970d4775966019f051628c62/a-probabilistic-framework-to-learn-auction-mechanisms-via-gradient-descent.pdf), [video](https://www.youtube.com/watch?v=dEcU1nvkixo)\]
 
 14. CONSEQUENCES — Causality, Counterfactuals and Sequential Decision-Making for Recommender Systems.  
 **O. Jeunen**, T. Joachims, H. Oosterhuis, Y. Saito and F. Vasile. **CONSEQUENCES '22** (_RecSys Workshop_).  
