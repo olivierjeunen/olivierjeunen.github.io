@@ -64,11 +64,11 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 \[[webpage](https://sites.google.com/view/consequences2023)\]
 
 13. A Probabilistic Position Bias Model for Short-Video Recommendation Feeds.  
-**O. Jeunen**, T. Joachims, H. Oosterhuis, Y. Saito, F. Vasile and Y. Wang. **ML4SM '23** (_The WebConf Workshop_).  
+**O. Jeunen**. **ML4SM '23** (_The WebConf Workshop_).  
 
 14. Practical Bandits: An Industry Perspective.  
 B. van den Akker, **O. Jeunen**, Y. Li, B. London, Z. Nazari and D. Parekh. **The WebConf'23** (_Tutorial_)  
-\[[webpage](https://sites.google.com/view/practical-bandits-tutorial/homepage), [arXiv](https://arxiv.org/abs/2302.01223)\]
+\[[recording](https://www.youtube.com/watch?v=NkVWwZKdMac), [webpage](https://sites.google.com/view/practical-bandits-tutorial/homepage), [arXiv](https://arxiv.org/abs/2302.01223)\]
 
 15. A Probabilistic Framework to Learn Auction Mechanisms via Gradient Descent.  
 **O. Jeunen**, L. Stavrogiannis, A. Sayedi and B. Allison. **AI4WebAds'23** (_AAAI Workshop_)  
