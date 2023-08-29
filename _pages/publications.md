@@ -77,7 +77,7 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 \[[webpage](https://sites.google.com/view/consequences2023)\]
 
 16. A Probabilistic Position Bias Model for Short-Video Recommendation Feeds.  
-**O. Jeunen**. **ML4SM '23** (_The WebConf Workshop_).
+**O. Jeunen**. **ML4SM '23** (_The WebConf Workshop_).  
 \[[video](https://youtu.be/iH8JzbtOomA)]
 
 18. Practical Bandits: An Industry Perspective.  
