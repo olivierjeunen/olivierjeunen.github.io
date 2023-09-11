@@ -70,7 +70,7 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 
 14. Offline Recommender System Evaluation under Unobserved Confounding.  
 **O. Jeunen** and B. London. **CONSEQUENCES '23** (_RecSys Workshop_).  
-\[[video](https://www.youtube.com/watch?v=kbxhZE6Gwto)\]  
+\[[arXiv](https://arxiv.org/abs/2309.04222), [code](https://github.com/olivierjeunen/confounding-consequences-2023/), [video](https://www.youtube.com/watch?v=kbxhZE6Gwto)\]  
 
 15. Ad-load Balancing via Off-policy Learning in a Content Marketplace.  
 H. Sagtani, M. Jhawar, R. Mehrotra and **O. Jeunen**. **CONSEQUENCES '23** (_RecSys Workshop_).
