@@ -34,7 +34,7 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 
 6. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
 **O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **NeurIPS'22**.  
-\[[arXiv](https://arxiv.org/abs/2210.05446), [code](https://github.com/olivierjeunen/disentangling-neurips-2022)\]
+\[[arXiv](https://arxiv.org/abs/2210.05446), [code](https://github.com/olivierjeunen/disentangling-neurips-2022), [video](https://slideslive.com/38990437/disentangling-causal-effects-from-sets-of-interventions-in-the-presence-of-unobserved-confounders)\]
 
 7. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
 **O. Jeunen** and B. Goethals. **RecSys'21** ([_Best Student Paper Award_](https://recsys.acm.org/best-papers/))   
@@ -68,13 +68,17 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 
 ### Workshops, Tutorials, Demos & Others
 
+14. RecFusion: A Binomial Diffusion Process for 1D Data for Recommendation.  
+G. Bénédict, **O. Jeunen**, S. Papa, S. Barghav, D. Odijk and M. de Rijke. **GenRec '23** (_CIKM Workshop_).  
+\[[arXiv](https://arxiv.org/abs/2306.08947)\]  
+
 14. Offline Recommender System Evaluation under Unobserved Confounding.  
 **O. Jeunen** and B. London. **CONSEQUENCES '23** (_RecSys Workshop_).  
 \[[arXiv](https://arxiv.org/abs/2309.04222), [code](https://github.com/olivierjeunen/confounding-consequences-2023/), [video](https://www.youtube.com/watch?v=kbxhZE6Gwto)\]  
 
 15. Ad-load Balancing via Off-policy Learning in a Content Marketplace.  
-H. Sagtani, M. Jhawar, R. Mehrotra and **O. Jeunen**. **CONSEQUENCES '23** (_RecSys Workshop_).
-\[[video](https://www.youtube.com/watch?v=VoqZ2m_eG4k)\]
+H. Sagtani, M. Jhawar, R. Mehrotra and **O. Jeunen**. **CONSEQUENCES '23** (_RecSys Workshop_).  
+\[[arXiv](https://arxiv.org/abs/2309.11518), [video](https://www.youtube.com/watch?v=VoqZ2m_eG4k)\]
 
 17. A Common Misassumption in Online Experiments with Machine Learning Models.  
 **O. Jeunen**. **SIGIR Forum**, **PERSPECTIVES '23** (_RecSys Workshop_).  
