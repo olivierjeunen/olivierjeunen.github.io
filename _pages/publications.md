@@ -26,7 +26,7 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 
 4. A Probabilistic Position Bias Model for Short-Video Recommendation Feeds.  
 **O. Jeunen**. **RecSys'23**.  
-\[[arXiv](https://arxiv.org/abs/2307.14059), [code](https://github.com/olivierjeunen/C-3PO-recsys-2023)\]  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3604915.3608777?cid=99659463663), [arXiv](https://arxiv.org/abs/2307.14059), [code](https://github.com/olivierjeunen/C-3PO-recsys-2023)\]  
 
 5. Off-Policy Learning-to-Bid with AuctionGym.  
 **O. Jeunen**, S. Murphy and B. Allison. **KDD'23** (_ADS Track_).  
@@ -34,7 +34,7 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 
 6. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
 **O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **NeurIPS'22**.  
-\[[arXiv](https://arxiv.org/abs/2210.05446), [code](https://github.com/olivierjeunen/disentangling-neurips-2022), [video](https://slideslive.com/38990437/disentangling-causal-effects-from-sets-of-interventions-in-the-presence-of-unobserved-confounders)\]
+\[[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b29ec434e049fb96f3c4245a405ee976-Abstract-Conference.html), [arXiv](https://arxiv.org/abs/2210.05446), [code](https://github.com/olivierjeunen/disentangling-neurips-2022), [video](https://slideslive.com/38990437/disentangling-causal-effects-from-sets-of-interventions-in-the-presence-of-unobserved-confounders)\]
 
 7. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
 **O. Jeunen** and B. Goethals. **RecSys'21** ([_Best Student Paper Award_](https://recsys.acm.org/best-papers/))   
