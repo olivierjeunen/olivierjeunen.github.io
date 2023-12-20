@@ -1,4 +1,4 @@
-I'm a Lead Decision Scientist at [ShareChat](https://sharechat.com/team/data-science) in the United Kingdom, working on machine learning applications to a broad set of problems, focused on recommendation.
+I'm a Lead Applied Scientist at [ShareChat](https://sharechat.com/team/data-science) in the United Kingdom, working on machine learning applications to a broad set of problems, focused on recommendation.
 I obtained my PhD at the [University of Antwerp](https://www.uantwerpen.be/en/) in Belgium, where I worked in the [Adrem Data Lab](http://adrem.uantwerpen.be/) under the supervision of [Prof. Dr. Bart Goethals](https://www.uantwerpen.be/en/staff/bart-goethals/).
 My dissertation was titled ["Offline Approaches to Recommendation with Online Success"](http://adrem.uantwerpen.be/bibrem/pubs/Jeunen2021PhDThesis.pdf).
 Generally, my research interests revolve around _machine learning_, specifically applying ideas from _causal_ and _countefactual inference_ to _information retrieval_ and _recommender systems_.
