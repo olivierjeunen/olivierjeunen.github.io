@@ -23,6 +23,12 @@ R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**
 
 
 ### Conferences
+4. Learning-to-Rank with Nested Feedback.  
+H. Sagtani, **O. Jeunen** and A. Ustimenko. **ECIR '24**.  
+
+4. Variance Reduction in Ratio Metrics for Efficient Online Experiments.  
+S. Baweja, N. Pokharna, A. Ustimenko and **O. Jeunen**. **ECIR '24** (_Industry Track_).
+
 4. Ad-load Balancing via Off-policy Learning in a Content Marketplace.  
 H. Sagtani, M. Jhawar, R. Mehrotra and **O. Jeunen**. **WSDM '24**.  
 \[[arXiv](https://arxiv.org/abs/2309.11518), [video](https://www.youtube.com/watch?v=VoqZ2m_eG4k)\]
