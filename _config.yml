@@ -20,7 +20,7 @@ include:
 # Site Author
 author:
   name             : "Olivier Jeunen"
-  avatar           : "img/profile.jpg"
+  avatar           : "img/profile.png"
   bio              : "Lead Applied Scientist @ ShareChat"
   location         : "Edinburgh, UK"
   links:
