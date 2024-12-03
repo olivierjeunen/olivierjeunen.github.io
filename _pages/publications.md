@@ -8,99 +8,117 @@ author_profile: true
 [Google Scholar](https://scholar.google.com/citations?user=zOT4PjAAAAAJ), [ResearchGate](https://www.researchgate.net/profile/Olivier_Jeunen), [DBLP](https://dblp.org/pid/232/8079.html), [Semantic Scholar](https://www.semanticscholar.org/author/Olivier-Jeunen/52628148)
 
 
-### Journals
-1. Scheduling on a Budget: Avoiding Stale Recommendations with Timely Updates.  
+### Journals and Dagstuhl reports
+
+1. Evaluation Perspectives of Recommender Systems: Driving Research and Education.  
+C. Bauer, A. Said and E. Zangelere. **Dagstuhl 24211**  
+\[[DOI](https://doi.org/10.4230/DagRep.14.5.58)\]
+  
+2. Scheduling on a Budget: Avoiding Stale Recommendations with Timely Updates.  
 R. Verachtert, **O. Jeunen** and B. Goethals. **Elsevier MLWA'23**  
 \[[DOI](https://doi.org/10.1016/j.mlwa.2023.100455)]
 
-2. Pessimistic Decision-Making for Recommender Systems.  
+3. Pessimistic Decision-Making for Recommender Systems.  
 **O. Jeunen** and B. Goethals. **ACM ToRS'22** (_Special Issue on Highlights of RecSys '21_)  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3568029?cid=99659463663), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
-3. Embarrassingly Shallow Auto-Encoders for Dynamic Collaborative Filtering.  
+4. Embarrassingly Shallow Auto-Encoders for Dynamic Collaborative Filtering.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **Springer UMUI'22** (_Special Issue on Dynamic Recommender Systems and User Modeling_)  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenUMUAI2022.pdf), [code](https://github.com/olivierjeunen/dynamic-easer)]
 
 
 ### Conferences
-4. ∆-OPE: Off-Policy Estimation with Pairs of Policies.  
-**O. Jeunen** and A. Ustimenko. **RecSys ’24**
+5. ∆-OPE: Off-Policy Estimation with Pairs of Policies.  
+**O. Jeunen** and A. Ustimenko. **RecSys ’24**  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3640457.3688162?cid=99659463663)\]
 
-5. Multi-Objective Recommendation via Multivariate Policy Learning.  
-**O. Jeunen**, J. Mandav, I. Potapov, N. Agarwal, S. Vaid, W. Shi and A. Ustimenko. **RecSys ’24**
+6. Multi-Objective Recommendation via Multivariate Policy Learning.  
+**O. Jeunen**, J. Mandav, I. Potapov, N. Agarwal, S. Vaid, W. Shi and A. Ustimenko. **RecSys ’24**  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3640457.3688132?cid=99659463663)\]
 
-6. Optimal Baseline Corrections for Off-Policy Contextual Bandits.
-S. Gupta*, **O. Jeunen***, H. Oosterhuis and M. de Rijke. **RecSys ’24**
+7. Optimal Baseline Corrections for Off-Policy Contextual Bandits.  
+S. Gupta, **O. Jeunen**, H. Oosterhuis and M. de Rijke. **RecSys ’24**  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3640457.3688105?cid=99659463663)\]
 
-7. Powerful A/B-Testing Metrics and Where to Find Them.  
-**O. Jeunen**, S. Baweja, N. Pokharna and A. Ustimenko. **RecSys ’24**
+8. Powerful A/B-Testing Metrics and Where to Find Them.  
+**O. Jeunen**, S. Baweja, N. Pokharna and A. Ustimenko. **RecSys ’24**  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3640457.3688036?cid=99659463663)\]
 
-8. On (Normalised) Discounted Cumulative Gain as an Off-Policy Evaluation Metric for Top-n Recommendation
-**O. Jeunen**, I. Potapov and A. Ustimenko. **KDD '24**.
+10. On (Normalised) Discounted Cumulative Gain as an Off-Policy Evaluation Metric for Top-n Recommendation.  
+**O. Jeunen**, I. Potapov and A. Ustimenko. **KDD '24**.  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3637528.3671687?cid=99659463663)\]
 
-9. Learning Metrics that Maximise Power for Accelerated A/B-Tests.  
-**O. Jeunen** and A. Ustimenko. **KDD '24** (_ADS Track_).
+11. Learning Metrics that Maximise Power for Accelerated A/B-Tests.  
+**O. Jeunen** and A. Ustimenko. **KDD '24** (_ADS Track_).  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3637528.3671512?cid=99659463663)\]
 
-10. Monitoring the Evolution of Behavioural Embeddings in Social Media Recommendation.  
-S. Saket, O. Jeunen and Md. D. Kalim. **SIGIR '24** (_SIRIP_).
+12. Monitoring the Evolution of Behavioural Embeddings in Social Media Recommendation.  
+S. Saket, O. Jeunen and Md. D. Kalim. **SIGIR '24** (_SIRIP_).  
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3626772.3661368?cid=99659463663)\]
 
-11. Learning-to-Rank with Nested Feedback.  
+13. Learning-to-Rank with Nested Feedback.  
 H. Sagtani, **O. Jeunen** and A. Ustimenko. **ECIR '24**.  
+\[[arXiv](https://arxiv.org/abs/2401.04053)\]
 
-12. Variance Reduction in Ratio Metrics for Efficient Online Experiments.  
-S. Baweja, N. Pokharna, A. Ustimenko and **O. Jeunen**. **ECIR '24** (_Industry Track_).
+14. Variance Reduction in Ratio Metrics for Efficient Online Experiments.  
+S. Baweja, N. Pokharna, A. Ustimenko and **O. Jeunen**. **ECIR '24** (_Industry Track_).  
+\[[arXiv](https://arxiv.org/abs/2401.04062)\]
 
-13. Ad-load Balancing via Off-policy Learning in a Content Marketplace.  
+15. Ad-load Balancing via Off-policy Learning in a Content Marketplace.  
 H. Sagtani, M. Jhawar, R. Mehrotra and **O. Jeunen**. **WSDM '24**.  
-\[[arXiv](https://arxiv.org/abs/2309.11518), [video](https://www.youtube.com/watch?v=VoqZ2m_eG4k)\]
+\[[ACM DL](https://dl.acm.org/doi/10.1145/3616855.3635846?cid=99659463663), [arXiv](https://arxiv.org/abs/2309.11518), [video](https://www.youtube.com/watch?v=VoqZ2m_eG4k)\]
 
-14. On Gradient Boosted Decision Trees and Neural Rankers: A Case-Study on Short-Video Recommendations at ShareChat.  
+16. On Gradient Boosted Decision Trees and Neural Rankers: A Case-Study on Short-Video Recommendations at ShareChat.  
 **O. Jeunen**, H. Sagtani, H. Doi, R. Karimov, N. Pokharna, D. Kalim, A. Ustimenko, C. Green, R. Mehrotra and W. Shi. **FIRE'23**.  
 \[[arXiv](https://arxiv.org/abs/2312.01760)]  
 
-15. A Probabilistic Position Bias Model for Short-Video Recommendation Feeds.  
+17. A Probabilistic Position Bias Model for Short-Video Recommendation Feeds.  
 **O. Jeunen**. **RecSys'23**.  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3604915.3608777?cid=99659463663), [arXiv](https://arxiv.org/abs/2307.14059), [code](https://github.com/olivierjeunen/C-3PO-recsys-2023)\]  
 
-16. Off-Policy Learning-to-Bid with AuctionGym.  
+18. Off-Policy Learning-to-Bid with AuctionGym.  
 **O. Jeunen**, S. Murphy and B. Allison. **KDD'23** (_ADS Track_).  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3580305.3599877?cid=99659463663), [AuctionGym](https://github.com/amzn/auction-gym)\]
 
-17. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
+19. Disentangling Causal Effects from Sets of Interventions in the Presence of Unobserved Confounders.  
 **O. Jeunen**, C. M. Gilligan-Lee, R. Mehrotra and M. Lalmas. **NeurIPS'22**.  
 \[[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b29ec434e049fb96f3c4245a405ee976-Abstract-Conference.html), [arXiv](https://arxiv.org/abs/2210.05446), [code](https://github.com/olivierjeunen/disentangling-neurips-2022), [video](https://slideslive.com/38990437/disentangling-causal-effects-from-sets-of-interventions-in-the-presence-of-unobserved-confounders)\]
 
-18. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
+20. Pessimistic Reward Models for Off-Policy Learning in Recommendation.  
 **O. Jeunen** and B. Goethals. **RecSys'21** ([_Best Student Paper Award_](https://recsys.acm.org/best-papers/))   
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3460231.3474247?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_A.pdf), [code](https://github.com/olivierjeunen/pessimism-recsys-2021)]
 
-19. Top-K Contextual Bandits with Equity of Exposure.  
+21. Top-K Contextual Bandits with Equity of Exposure.  
 **O. Jeunen** and B. Goethals. **RecSys'21**  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3460231.3474248?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys2021_B.pdf), [code](https://github.com/olivierjeunen/EARS-recsys-2021)]
 
-20. Closed-Form Models for Collaborative Filtering with Side-Information.  
+22. Closed-Form Models for Collaborative Filtering with Side-Information.  
 **O. Jeunen**, J. Van Balen and B. Goethals. **RecSys'20** (_Late-Breaking-Result_)  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3383313.3418480?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys20.pdf), [code](https://github.com/olivierjeunen/ease-side-info-recsys-2020)]
 
-21. Joint Policy-Value Learning for Recommendation.  
+23. Joint Policy-Value Learning for Recommendation.  
 **O. Jeunen**, D. Rohde, F. Vasile and M. Bompaire. **KDD'20**  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3394486.3403175?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenKDD2020.pdf), [code](https://github.com/olivierjeunen/dual-bandit-kdd-2020)]
 
-22. Efficient Similarity Computation for Collaborative Filtering in Dynamic Environments.  
+24. Efficient Similarity Computation for Collaborative Filtering in Dynamic Environments.  
 **O. Jeunen**, K. Verstrepen and B. Goethals. **RecSys’19**  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3298689.3347017?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_Full.pdf), [code](https://github.com/olivierjeunen/dynamicindex)]
 
-23. Revisiting Offline Evaluation for Implicit-Feedback Recommender Systems.  
+25. Revisiting Offline Evaluation for Implicit-Feedback Recommender Systems.  
 **O. Jeunen**. **RecSys’19** (_Doctoral Symposium_)  
 \[[ACM DL](https://dl.acm.org/doi/10.1145/3298689.3347069?cid=99659463663), [pdf](http://adrem.uantwerpen.be/bibrem/pubs/JeunenRecSys19_DoctoralSymposium.pdf)\]
 
-24. A Machine Learning Approach for IEEE 802.11 Channel Allocation.  
+26. A Machine Learning Approach for IEEE 802.11 Channel Allocation.  
 **O. Jeunen**, P. Bosch, M. Van Herwegen, K. Van Doorselaer, N. Godman and S. Latré. **CNSM’18**  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/MasterThesisJeunen2018.pdf)\]
 
 
 
 ### Workshops, Tutorials, Demos & Others
+
+25. A Simple Model to estimate Sharing Effects in Social Networks.  
+**O. Jeunen**. **CONSEQUENCES '24** (_RecSys Workshop_).  
+\[[arXiv](https://arxiv.org/abs/2409.12203), [code](https://github.com/olivierjeunen/CONSEQUENCES24-sharing)\]
 
 25. CONSEQUENCES — 3nd Workshop on Causality, Counterfactuals and Sequential Decision-Making for Recommender Systems.  
 **O. Jeunen**, H. Oosterhuis, Y. Saito, F. Vasile and Y. Wang. **CONSEQUENCES '24** (_RecSys Workshop_).  
@@ -193,10 +211,10 @@ S. Moens, **O. Jeunen** and B. Goethals. **RecSys’19** (_Demo_)
 
 
 ### Theses
-47. Offline Approaches to Recommendation with Online Success.  
+48. Offline Approaches to Recommendation with Online Success.  
 **PhD in Computer Science**, 2021.  
 \[[pdf](http://adrem.uantwerpen.be/bibrem/pubs/Jeunen2021PhDThesis.pdf)]
 
-48. Data-Driven Frequency Planning in IEEE 802.11 Networks.  
+49. Data-Driven Frequency Planning in IEEE 802.11 Networks.  
 **MSc in Computer Science**, 2017. 
 
