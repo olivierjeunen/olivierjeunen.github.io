@@ -2,7 +2,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 title: Olivier Jeunen
 name: Olivier Jeunen
-description: Lead Applied Scientist @ ShareChat, UK
+description: Principal Research Scientist @ Aampe
 
 layout: single
 
@@ -21,8 +21,8 @@ include:
 author:
   name             : "Olivier Jeunen"
   avatar           : "img/profile.png"
-  bio              : "Lead Applied Scientist @ ShareChat"
-  location         : "Edinburgh, UK"
+  bio              : "Principal Research Scientist @ Aampe"
+  location         : "Antwerp, BE"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
